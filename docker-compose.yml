@@ -1,0 +1,36 @@
+version: '2'
+services:
+  web013:
+    image: odoo:15.0
+    depends_on:
+      - db013
+    ports:
+      - "8013:8069"
+    #tty: true
+    #command: -- --dev=reload
+
+    volumes:
+      - odoo-web013-data:/var/lib/odoo
+      - ./config:/etc/odoo
+      - ./varlogodoo:/var/log/odoo
+      - ./addons_propios:/mnt/extra-addons
+      - ./addons_terceros:/mnt/third-addons
+      - ./oca/account-analytic:/mnt/oca
+      - ./oca:/mnt/oca2
+      - ./addons_themes:/mnt/third-themes
+      - ./addons_comprados:/mnt/third-purchase
+      
+  db013:
+    image: postgres:13
+    ports:
+      - "32013:5432"
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=crsJVA!_02
+      - POSTGRES_USER=odoo15a
+      - PGDATA=/var/lib/postgresql/data/pgdata013
+    volumes:
+      - odoo-db013-data:/var/lib/postgresql/data/pgdata013
+volumes:
+  odoo-web013-data:
+  odoo-db013-data:
