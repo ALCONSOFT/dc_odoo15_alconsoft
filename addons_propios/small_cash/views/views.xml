@@ -1,0 +1,126 @@
+<odoo>
+  <data>
+  <record id="hr_expense_view_form_inherit_small_cash" model="ir.ui.view">
+    <field name="name">hr.expense.view.form.inherit_sc</field>
+    <field name="model">hr.expense</field>
+    <field name="inherit_id" ref="hr_expense.hr_expense_view_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='product_id']" position="after">
+        <field name="partner_id" widget="res_partner_many2one" nolabel="0"/>
+        <field name="supplier_invoice"></field>
+        <field name="partner_name" ></field>
+        <label for="vat" string="R.U.C."/>
+        <field name="vat" nolabel="1"></field>
+        <label for="dv_vat" string="D.V."/>
+        <field name="dv_vat" nolabel="1"></field>
+        <label for="untaxed_amount" string="Sin Impuestos"/>
+        <field name="untaxed_amount" nolabel="1"></field>
+        <label for="taxed_amount" string="Impuesto"/>
+        <field name="taxed_amount" nolabel="1"></field>
+      </xpath>
+      <xpath expr="//field[@name='tax_ids']" position="replace">
+        
+      </xpath>
+    </field>
+  </record>
+
+  <!--Form: Vista Account.move-->
+  <record id="view_move_form_inherit_small_cash" model="ir.ui.view">
+    <field name="name">account.move.view_move.form.inherit_sc</field>
+    <field name="model">account.move</field>
+    <field name="inherit_id" ref="account.view_move_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//group[@id='header_right_group']" position="inside">
+        <label for="expense_id" string="ref. Fact. Gasto"/>
+        <field name="expense_id" string="Ref. Fact. Gasto:" widget="many2one"></field> 
+      </xpath>
+
+    </field>
+  </record>
+
+  <!--Lista: hr.expense.tree-->
+  <record id="view_my_expense_tree_inherit_small_cash" model="ir.ui.view">
+    <field name="name">hr.expense.tree.view.tree.inherit_sc</field>
+    <field name="model">hr.expense</field>
+    <field name="inherit_id" ref="hr_expense.view_my_expenses_tree"/>
+    <field name="arch" type="xml">
+      <xpath expr="//tree" position="inside">
+        <field name="supplier_invoice" optional="show"></field>
+        <field name="vat" optional="show"></field>
+        <field name="dv_vat" optional="show"></field>
+        <field name="partner_name" optional="show"></field>
+        <field name="taxed_amount" optional="show" sum="Total Impuestos" widget='monetary' options="{'currency_field': 'company_currency_id'}" decoration-bf="True"/>
+      </xpath>
+    </field>
+  </record>
+
+  <!--Agregando campo DV a Res_Partner-->
+  <record id="view_partner_form_inherit_small_cash" model="ir.ui.view">
+    <field name="name">res.partner.view.form.inherit_sc</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="base.view_partner_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='vat']" position="after">
+        <field name="dv"></field>
+      </xpath>
+    </field>
+  </record>
+  
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="small_cash.list">
+      <field name="name">small_cash list</field>
+      <field name="model">small_cash.small_cash</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="small_cash.action_window">
+      <field name="name">small_cash window</field>
+      <field name="res_model">small_cash.small_cash</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="small_cash.action_server">
+      <field name="name">small_cash server</field>
+      <field name="model_id" ref="model_small_cash_small_cash"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="small_cash" id="small_cash.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="small_cash.menu_1" parent="small_cash.menu_root"/>
+    <menuitem name="Menu 2" id="small_cash.menu_2" parent="small_cash.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="small_cash.menu_1_list" parent="small_cash.menu_1"
+              action="small_cash.action_window"/>
+    <menuitem name="Server to list" id="small_cash" parent="small_cash.menu_2"
+              action="small_cash.action_server"/>
+-->
+  </data>
+</odoo>

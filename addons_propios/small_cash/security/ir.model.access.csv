@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_small_cash_small_cash,small_cash.small_cash,model_small_cash_small_cash,base.group_user,1,1,1,1
