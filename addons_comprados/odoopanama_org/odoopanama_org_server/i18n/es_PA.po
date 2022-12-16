@@ -1,0 +1,116 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* odoopanama_org_server
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-10 06:30+0000\n"
+"PO-Revision-Date: 2020-04-10 01:32-0500\n"
+"Last-Translator: \n"
+"Language-Team: www.sistemerp.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_PA\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: odoopanama_org_server
+#: model_terms:ir.ui.view,arch_db:odoopanama_org_server.view_pe_server_from
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields.selection,name:odoopanama_org_server.selection__pe_server__state__cancel
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__description
+msgid "Description"
+msgstr "Descripción "
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields.selection,name:odoopanama_org_server.selection__pe_server__state__done
+#: model_terms:ir.ui.view,arch_db:odoopanama_org_server.view_pe_server_from
+msgid "Done"
+msgstr "Listo"
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields.selection,name:odoopanama_org_server.selection__pe_server__state__draft
+#: model_terms:ir.ui.view,arch_db:odoopanama_org_server.view_pe_server_from
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__id
+msgid "ID"
+msgstr ""
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__password
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: odoopanama_org_server
+#: model:ir.actions.act_window,name:odoopanama_org_server.action_pe_server
+#: model:ir.model,name:odoopanama_org_server.model_pe_server
+msgid "Panama Server"
+msgstr "Servidor de Sunat"
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__state
+msgid "Status"
+msgstr "Estado"
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__url
+msgid "Url"
+msgstr ""
+
+#. module: odoopanama_org_server
+#: model:ir.model.fields,field_description:odoopanama_org_server.field_pe_server__user
+msgid "User"
+msgstr "Usuario"

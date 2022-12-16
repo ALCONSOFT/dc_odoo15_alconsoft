@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+
+    <record id="view_company_server_cpe" model="ir.ui.view">
+      <field name="name">res.company.server.cpe.inherit</field>
+      <field name="inherit_id" ref="base.view_company_form" />
+      <field name="model">res.company</field>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='logo']" position="before">
+          <widget name="web_ribbon" title="Desarrollo" bg_color="bg-warning o_medium" attrs="{'invisible' : [('type_env', '=', True)]}" />
+          <widget name="web_ribbon" title="Producción" bg_color="bg-success o_medium" attrs="{'invisible' : [('type_env', '=', False)]}" />
+        </xpath>
+        <xpath expr="//notebook" position="inside">
+          <page string="Configuracion DGI - PAC">
+            <group string="Datos de Autenticación">
+              <group>
+                <field name="user" attrs="{'required':[('type_env', '=', True)]}" />
+                <field name="password" password="True" attrs="{'required':[('type_env', '=', True)]}" />
+              </group>
+
+              <group>
+                <field name="type_env" widget="boolean_toggle" />
+                <field name="server_type" required="1" />
+                <field name="l10n_pa_edi_address_type_code" />
+                <hr />
+                <field name="pe_is_sync" string="Envío de CPE Sincrónico/Asincrónico" widget="toggle_button" />
+                <span class="o_form_label" style="font-size: 11px;">
+                  Envía al instante
+                  <i class="fa fa-circle o_toggle_button_success" style="color: #1ca04a;" />
+                  <br />
+                  Envía Despues
+                  <i class="fa fa-circle o_toggle_button_success" style="color: ##adb5bd;" />
+                </span>
+              </group>
+            </group>
+            <notebook>
+            <page string="Datos de Certificado Digital" name="cdt">
+              <group>
+                <group>
+                  <field name="start_date" string="Válido Desde" />
+                </group>
+                <group>
+                  <field name="end_date" string="Válido Hasta"  />
+                </group>
+              </group>
+              <group>
+                <div class="row">
+                  <div class="col-6">
+                    <label for="key" style="font-size: 18px; font-weight: bold;" />
+                    <field name="key" placeholder="Ingrese aqui su cerfiticado .KEY" />
+                  </div>
+                  <div class="col-6">
+                    <label for="crt" style="font-size: 18px; font-weight: bold;" />
+                    <field name="crt" placeholder="ngrese aqui su cerfiticado .CRT" />
+                  </div>
+                </div>
+              </group>
+            </page>
+            <page string="URL de Servidor de cpe" name="url">
+              <group name="cpe">
+                <separator string="Comprobante de Pago" colspan="4" />
+                <field name="url" placeholder="URL DE WS (Producción) - Es Opcional" />
+                <field name="url_dev" placeholder="URL DE WS (Desarrollo) - Es Opcional" />
+              </group>
+            </page>
+            </notebook>
+          </page>
+        </xpath>
+      </field>
+    </record>
+  </data>
+</odoo> 
