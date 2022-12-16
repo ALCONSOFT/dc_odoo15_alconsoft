@@ -1,0 +1,475 @@
+code|name|applies_to|active
+1000|Material Vivo Vegetal y Animal, Accesorios y Suministros|product|TRUE
+1010|Animales vivos|product|TRUE
+1011|Productos para animales domésticos|product|TRUE
+1012|Comida de animales|product|TRUE
+1013|Recipientes y hábitat para animales|product|TRUE
+1014|Productos de talabartería y arreo|product|TRUE
+1015|Semillas, bulbos, plántulas y esquejes|product|TRUE
+1016|Productos de floricultura y silvicultura|product|TRUE
+1017|Fertilizantes y nutrientes para plantas y herbicidas|product|TRUE
+1019|Productos para el control de plagas|product|TRUE
+1020|Rosales vivos|product|TRUE
+1021|Plantas vivas de especies o variedades de flores altas|product|TRUE
+1022|Plantas vivas de especies o variedades de flores bajas|product|TRUE
+1023|Crisantemos vivos|product|TRUE
+1024|Claveles vivos|product|TRUE
+1025|Orquídeas vivas|product|TRUE
+1030|Rosas frescas cortadas|product|TRUE
+1031|Bouquets cortados frescos de especies o variedades de flores altas|product|TRUE
+1032|Bouquets cortados frescos de especies o variedades de flores bajas|product|TRUE
+1033|Crisantemos cortados frescos|product|TRUE
+1034|Bouquets florales cortados frescos|product|TRUE
+1035|Claveles cortados frescos|product|TRUE
+1036|Orquídeas cortadas frescas|product|TRUE
+1040|Rosas cortadas secas|product|TRUE
+1041|Bouquets cortados secos de especies o variedades de flores altas|product|TRUE
+1042|Bouquets cortados secos de especies o variedades de flores bajas|product|TRUE
+1043|Crisantemos cortados secos|product|TRUE
+1044|Claveles cortados secos|product|TRUE
+1045|Orquídeas cortadas secas|product|TRUE
+1050|Follaje cortado fresco|product|TRUE
+1100|Material Mineral, Textil y Vegetal y Animal No Comestible|product|TRUE
+1110|Minerales, minerales metálicos y metales|product|TRUE
+1111|Tierra y piedra|product|TRUE
+1112|Productos no comestibles de planta y silvicultura|product|TRUE
+1113|Productos animales no comestibles|product|TRUE
+1114|Chatarra y materiales de desecho|product|TRUE
+1115|Fibra, hilos e hilados|product|TRUE
+1116|Tejidos y materiales de cuero|product|TRUE
+1117|Aleaciones|product|TRUE
+1118|Óxido metálico|product|TRUE
+1119|Desechos metálicos y chatarra|product|TRUE
+1200|Material Químico incluyendo Bioquímicos y Materiales de Gas|product|TRUE
+1213|Materiales explosivos|product|TRUE
+1214|Elementos y gases|product|TRUE
+1216|Aditivos|product|TRUE
+1217|Colorantes|product|TRUE
+1218|Ceras y aceites|product|TRUE
+1219|Solventes|product|TRUE
+1235|Compuestos y mezclas|product|TRUE
+1300|Materiales de Resina, Colofonia, Caucho, Espuma, Película y Elastómericos|product|TRUE
+1310|Caucho y elastómeros|product|TRUE
+1311|Resinas y colofonias y otros materiales derivados de resina|product|TRUE
+1400|Materiales y Productos de Papel|product|TRUE
+1410|Materiales de papel|product|TRUE
+1411|Productos de papel|product|TRUE
+1412|Papel para uso industrial|product|TRUE
+1500|Materiales Combustibles, Aditivos para Combustibles, Lubricantes y Anticorrosivos|product|TRUE
+1510|Combustibles|product|TRUE
+1511|Combustibles gaseosos y aditivos|product|TRUE
+1512|Lubricantes, aceites, grasas y anticorros|product|TRUE
+1513|Combustible para reactores nucleares|product|TRUE
+2000|Maquinaria y Accesorios de Minería y Perforación de Pozos|product|TRUE
+2010|Maquinaria y equipo de minería y explotación de canteras|product|TRUE
+2011|Equipo de perforación y explotación de pozos|product|TRUE
+2012|Equipo para perforación y exploración de petróleo y gas|product|TRUE
+2013|Materiales para perforación y operaciones de petróleo y gas|product|TRUE
+2014|Equipo de producción y operación de petróleo y gas|product|TRUE
+2100|Maquinaria y Accesorios para Agricultura, Pesca, Silvicultura y Fauna|product|TRUE
+2110|Maquinaria y equipo para agricultura, silvicultura y paisajismo|product|TRUE
+2111|Equipo de pesca y acuicultura|product|TRUE
+2200|Maquinaria y Accesorios para Construcción y Edificación|product|TRUE
+2210|Maquinaria y equipo pesado de construcción|product|TRUE
+2300|Maquinaria y Accesorios para Manufactura y Procesamiento Industrial|product|TRUE
+2310|Maquinaria para el procesamiento de materias primas|product|TRUE
+2311|Maquinaria para el procesamiento de petróleo|product|TRUE
+2312|Maquinaria y accesorios de textiles y tejidos|product|TRUE
+2313|Maquinaria y equipos lapidarios|product|TRUE
+2314|Maquinaria de reparación y accesorios para marroquinería|product|TRUE
+2315|Maquinaria, equipo y suministros de procesos industriales|product|TRUE
+2316|Máquinas, equipo y suministros para fundición|product|TRUE
+2318|Equipo industrial para alimentos y bebidas|product|TRUE
+2319|Mezcladores y sus partes y accesorios|product|TRUE
+2320|Equipamiento para transferencia de masa|product|TRUE
+2321|Maquinaria de fabricación electrónica, equipo y accesorios|product|TRUE
+2322|Equipo y maquinaria de procesamiento de pollos|product|TRUE
+2323|Equipo y maquinaria de procesamiento de madera y aserrado|product|TRUE
+2324|Maquinaria y accesorios para cortar metales|product|TRUE
+2325|Maquinaria y accesorios para el formado de metales|product|TRUE
+2326|Maquinaria y accesorios para hacer prototipos rápidos|product|TRUE
+2327|Maquinaria y accesorios y suministros para soldadura de todas las clases|product|TRUE
+2328|Maquinaria para el tratamiento de metal|product|TRUE
+2329|Herramientas de maquinado industrial|product|TRUE
+2330|Maquinaria y equipo para cable|product|TRUE
+2400|Maquinaria, Accesorios y Suministros para Manejo, Acondicionamiento y Almacenamiento de Materiales|product|TRUE
+2410|Maquinaria y equipo para manejo de materiales|product|TRUE
+2411|Recipientes y almacenamiento|product|TRUE
+2412|Materiales de empaque|product|TRUE
+2413|Refrigeración industrial|product|TRUE
+2414|Suministros de embalaje|product|TRUE
+2500|Vehículos Comerciales, Militares y Particulares, Accesorios y Componentes|product|TRUE
+2510|Vehículos de motor|product|TRUE
+2511|Transporte marítimo|product|TRUE
+2512|Maquinaria y equipo para ferrocarril y tranvías|product|TRUE
+2513|Aeronaves|product|TRUE
+2515|Naves espaciales|product|TRUE
+2516|Bicicletas no motorizadas|product|TRUE
+2517|Componentes y sistemas de transporte|product|TRUE
+2518|Carrocerías y remolques|product|TRUE
+2519|Equipo para servicios de transporte|product|TRUE
+2520|Sistemas componentes y equipos aeroespaciales|product|TRUE
+2600|Maquinaria y Accesorios para Generación y Distribución de Energía|product|TRUE
+2610|Fuentes de energía|product|TRUE
+2611|Baterías y generadores y transmisión de energía cinética|product|TRUE
+2612|Alambres, cables y arneses|product|TRUE
+2613|Generación de energía|product|TRUE
+2614|Maquinaria y equipo para energía atómica o nuclear|product|TRUE
+2700|Herramientas y Maquinaria General|product|TRUE
+2711|Herramientas de mano|product|TRUE
+2712|Maquinaria y equipo hidráulico|product|TRUE
+2713|Maquinaria y equipo neumático|product|TRUE
+2714|Herramientas especializadas automotrices|product|TRUE
+3000|Componentes y Suministros para Estructuras, Edificación, Construcción y Obras Civiles|product|TRUE
+3010|Componentes estructurales y formas básicas|product|TRUE
+3011|Hormigón, cemento y yeso|product|TRUE
+3012|Carreteras y paisaje|product|TRUE
+3013|Productos de construcción estructurales|product|TRUE
+3014|Aislamiento|product|TRUE
+3015|Materiales para acabado de exteriores|product|TRUE
+3016|Materiales de acabado de interiores|product|TRUE
+3017|Puertas y ventanas y vidrio|product|TRUE
+3018|Instalaciones de plomería|product|TRUE
+3019|Equipo de apoyo para Construcción y Mantenimiento|product|TRUE
+3024|Componentes de construcción de estructura portátil|product|TRUE
+3025|Estructuras y materiales de minería subterránea|product|TRUE
+3026|Materiales estructurales |product|TRUE
+3100|Componentes y Suministros de Manufactura|product|TRUE
+3110|Piezas de fundición y ensambles de piezas de fundición|product|TRUE
+3111|Extrusiones|product|TRUE
+3112|Piezas fundidas maquinadas|product|TRUE
+3113|Forjaduras|product|TRUE
+3114|Molduras|product|TRUE
+3115|Cuerda, cadena, cable, alambre y correa|product|TRUE
+3116|Ferretería|product|TRUE
+3117|Rodamientos, cojinetes ruedas y engranajes |product|TRUE
+3118|Empaques, glándulas, fundas y cubiertas|product|TRUE
+3119|Materiales de afilado pulido y alisado|product|TRUE
+3120|Adhesivos y selladores|product|TRUE
+3121|Pinturas y bases y acabados|product|TRUE
+3122|Extractos de teñir y de curtir|product|TRUE
+3123|Materia prima en placas o barras labradas|product|TRUE
+3124|Óptica industrial|product|TRUE
+3125|Sistemas de control neumático, hidráulico o eléctrico|product|TRUE
+3126|Cubiertas, cajas y envolturas|product|TRUE
+3127|Piezas hechas a máquina|product|TRUE
+3128|Componentes de placa y estampados|product|TRUE
+3129|Extrusiones maquinadas|product|TRUE
+3130|Forjas labradas|product|TRUE
+3131|Ensambles de tubería fabricada|product|TRUE
+3132|Ensambles fabricados de material en barras|product|TRUE
+3133|Ensambles estructurales fabricados|product|TRUE
+3134|Ensambles de lámina fabricado|product|TRUE
+3135|Ensambles de tubería fabricada|product|TRUE
+3136|Ensambles de placa fabricados|product|TRUE
+3137|Refractarios|product|TRUE
+3138|Imanes y materiales magnéticos|product|TRUE
+3139|Maquinados|product|TRUE
+3140|Empaques|product|TRUE
+3141|Sellos|product|TRUE
+3142|Partes sinterizadas|product|TRUE
+3200|Componentes y Suministros Electrónicos|product|TRUE
+3210|Circuitos impresos, circuitos integrados y micro ensamblajes|product|TRUE
+3211|Dispositivo semiconductor discreto|product|TRUE
+3212|Componentes pasivos discretos|product|TRUE
+3213|Piezas de componentes y hardware electrónicos y accesorios|product|TRUE
+3214|Dispositivos de tubo electrónico y accesorios|product|TRUE
+3215|Dispositivos y componentes y accesorios de control de automatización|product|TRUE
+3900|Componentes, Accesorios y Suministros de Sistemas Eléctricos e Iluminación|product|TRUE
+3910|Lámparas y bombillas y componentes para lámparas|product|TRUE
+3911|Iluminación, artefactos y accesorios|product|TRUE
+3912|Equipos, suministros y componentes eléctricos|product|TRUE
+3913|Dispositivos y accesorios y suministros de manejo de cable eléctrico|product|TRUE
+4000|Componentes y Equipos para Distribución y Sistemas de Acondicionamiento|product|TRUE
+4010|Calefacción, ventilación y circulación del aire|product|TRUE
+4014|Distribución de fluidos y gas|product|TRUE
+4015|Bombas y compresores industriales|product|TRUE
+4016|Filtrado y purificación industrial|product|TRUE
+4017|Instalaciones de tubos y entubamientos|product|TRUE
+4018|Instalaciones de tubos y tuberías|product|TRUE
+4100|Equipos y Suministros de Laboratorio, de Medición, de Observación y de Pruebas|product|TRUE
+4110|Equipo de laboratorio y científico|product|TRUE
+4111|Instrumentos de medida, observación y ensayo|product|TRUE
+4112|Suministros y accesorios de laboratorio|product|TRUE
+4200|Equipo Médico, Accesorios y Suministros|product|TRUE
+4212|Equipos y suministros veterinarios|product|TRUE
+4213|Telas y vestidos médicos|product|TRUE
+4214|Suministros, productos de tratamiento y cuidado del enfermo|product|TRUE
+4215|Equipos y suministros dentales|product|TRUE
+4216|Equipo de diálisis y suministros|product|TRUE
+4217|Productos para los servicios médicos de urgencias y campo|product|TRUE
+4218|Productos de examen y control del paciente|product|TRUE
+4219|Productos de centro médico|product|TRUE
+4220|Productos de hacer imágenes diagnósticas médicas y de medicina nuclear|product|TRUE
+4221|Ayuda para personas con desafíos físicos para vivir independiente|product|TRUE
+4222|Productos para administración intravenosa y arterial|product|TRUE
+4223|Nutrición clínica|product|TRUE
+4224|Productos medicinales de deportes y ortopédicos y prótesis|product|TRUE
+4225|Productos de rehabilitación y terapia ocupacional y física|product|TRUE
+4226|Equipo y suministros post mortem y funerarios|product|TRUE
+4227|Productos de resucitación, anestesia y respiratorio|product|TRUE
+4228|Productos para la esterilización médica|product|TRUE
+4229|Productos quirúrgicos|product|TRUE
+4230|Suministros para formación y estudios de medicina|product|TRUE
+4231|Productos para el cuidado de heridas|product|TRUE
+4232|Implantes ortopédicos quirúrgicos|product|TRUE
+4300|Difusión de Tecnologías de Información y Telecomunicaciones|product|TRUE
+4319|Dispositivos de comunicaciones y accesorios|product|TRUE
+4320|Componentes para tecnología de la información, difusión o telecomunicaciones|product|TRUE
+4321|Equipo informático y accesorios|product|TRUE
+4322|Equipos o plataformas y accesorios de redes multimedia o de voz y datos|product|TRUE
+4323|Software|product|TRUE
+4410|Maquinaria, suministros y accesorios de oficina |product|TRUE
+4411|Accesorios de oficina y escritorio|product|TRUE
+4412|Suministros de oficina|product|TRUE
+4500|Equipos y Suministros para Impresión, Fotografía y Audiovisuales|product|TRUE
+4510|Equipo de imprenta y publicación|product|TRUE
+4511|Equipos de audio y video para presentación y composición|product|TRUE
+4512|Equipo de vídeo, filmación o fotografía|product|TRUE
+4513|Medios fotográficos y de grabación|product|TRUE
+4514|Suministros fotográficos para cine|product|TRUE
+4600|Equipos y Suministros de Defensa, Orden Público, Protección, Vigilancia y Seguridad|product|TRUE
+4610|Armas ligeras y munición|product|TRUE
+4611|Armas de guerra convencionales|product|TRUE
+4612|Misiles|product|TRUE
+4613|Cohetes y subsistemas|product|TRUE
+4614|Lanzadores|product|TRUE
+4615|Protección del Orden Público|product|TRUE
+4616|Seguridad y control público|product|TRUE
+4617|Seguridad, vigilancia y detección|product|TRUE
+4618|Seguridad y protección personal|product|TRUE
+4619|Protección contra incendios|product|TRUE
+4620|Equipo de entrenamiento de seguridad física e industrial, defensa y orden público |product|TRUE
+4700|Equipos de Limpieza y Suministros|product|TRUE
+4710|Tratamiento, suministros y eliminación de agua y aguas residuales|product|TRUE
+4711|Equipo industrial de lavandería y lavado en seco|product|TRUE
+4712|Equipo de aseo|product|TRUE
+4713|Suministros de aseo y limpieza|product|TRUE
+4800|Maquinaria, Equipo y Suministros para la Industria de Servicios|product|TRUE
+4810|Equipos de servicios de alimentación para instituciones|product|TRUE
+4811|Máquinas expendedoras|product|TRUE
+4812|Equipo de Juego o de Apostar|product|TRUE
+4813|Equipo y materiales funerarios|product|TRUE
+4900|Equipos, Suministros y Accesorios para Deportes y Recreación|product|TRUE
+4910|Coleccionables y condecoraciones|product|TRUE
+4912|Equipos y accesorios para acampada y exteriores|product|TRUE
+4913|Equipos de pesca y caza|product|TRUE
+4914|Equipos para deportes acuáticos|product|TRUE
+4915|Equipos para deportes de invierno|product|TRUE
+4916|Equipos deportivos para campos y canchas |product|TRUE
+4917|Equipos de gimnasia y boxeo|product|TRUE
+4918|Juegos, equipo de tiro y mesa|product|TRUE
+4920|Equipo para entrenamiento físico|product|TRUE
+4921|Otros deportes|product|TRUE
+4922|Equipo y accesorios para deportes|product|TRUE
+4924|Equipo de recreo, parques infantiles y equipo y suministros de natación y de spa|product|TRUE
+5000|Alimentos, Bebidas y Tabaco|product|TRUE
+5010|Frutos secos|product|TRUE
+5011|Productos de carne y aves de corral|product|TRUE
+5012|Pescados y mariscos|product|TRUE
+5013|Productos lácteos y huevos|product|TRUE
+5015|Aceites y grasas comestibles|product|TRUE
+5016|Chocolates, azúcares, edulcorantes y productos de confitería|product|TRUE
+5017|Condimentos y conservantes|product|TRUE
+5018|Productos de panadería|product|TRUE
+5019|Alimentos preparados y conservados|product|TRUE
+5020|Bebidas|product|TRUE
+5021|Tabaco y productos de fumar y substitutos|product|TRUE
+5022|Productos de cereales y legumbres|product|TRUE
+5030|Fruta fresca|product|TRUE
+5031|Fruta orgánica fresca|product|TRUE
+5032|Fruta seca|product|TRUE
+5033|Fruta orgánica seca|product|TRUE
+5034|Fruta congelada|product|TRUE
+5035|Fruta orgánica congelada|product|TRUE
+5036|Fruta en lata o en frasco|product|TRUE
+5037|Fruta orgánica en lata o en frasco|product|TRUE
+5038|Puré de frutas|product|TRUE
+5040|Vegetales frescos|product|TRUE
+5041|Vegetales orgánicos frescos|product|TRUE
+5042|Vegetales secos|product|TRUE
+5043|Vegetales orgánicos secos|product|TRUE
+5044|Vegetales congelados|product|TRUE
+5045|Vegetales orgánicos congelados|product|TRUE
+5046|Vegetales en lata o en frasco|product|TRUE
+5047|Vegetales orgánicos en lata o en frasco|product|TRUE
+5100|Medicamentos y Productos Farmacéuticos|product|TRUE
+5110|Medicamentos anti infecciosos|product|TRUE
+5111|Agentes antitumorales|product|TRUE
+5112|Medicamentos cardiovasculares|product|TRUE
+5113|Medicamentos hematólogos|product|TRUE
+5114|Medicamentos para el sistema nervioso central|product|TRUE
+5115|Medicamentos para el sistema nervioso autónomo|product|TRUE
+5116|Medicamentos que afectan al sistema respiratorio|product|TRUE
+5117|Medicamentos que afectan al sistema gastrointestinal|product|TRUE
+5118|Hormonas y antagonistas hormonales |product|TRUE
+5119|Agentes que afectan el agua y los electrolitos|product|TRUE
+5120|Medicamentos inmunomoduladores|product|TRUE
+5121|Categorías de medicamentos varios|product|TRUE
+5124|Fármacos que afectan a los oídos, los ojos, la nariz y la piel|product|TRUE
+5125|Suplementos alimenticios veterinarios|product|TRUE
+5200|Artículos Domésticos, Suministros y Productos Electrónicos de Consumo|product|TRUE
+5210|Revestimientos de suelos|product|TRUE
+5212|Ropa de cama, mantelerías, paños de cocina y toallas|product|TRUE
+5213|Tratamientos de ventanas|product|TRUE
+5214|Aparatos electrodomésticos|product|TRUE
+5215|Utensilios de cocina domésticos|product|TRUE
+5216|Electrónica de consumo|product|TRUE
+5217|Tratamientos de pared doméstica|product|TRUE
+5300|Ropa, Maletas y Productos de Aseo Personal|product|TRUE
+5310|Ropa|product|TRUE
+5311|Calzado|product|TRUE
+5312|Maletas, bolsos de mano, mochilas y estuches|product|TRUE
+5313|Artículos de tocador y cuidado personal|product|TRUE
+5314|Fuentes y accesorios de costura|product|TRUE
+5400|Productos para Relojería, Joyería y Piedras Preciosas|product|TRUE
+5410|Joyería|product|TRUE
+5411|Relojes|product|TRUE
+5412|Gemas|product|TRUE
+5500|Publicaciones Impresas, Publicaciones Electrónicas y Accesorios|product|TRUE
+5510|Medios impresos|product|TRUE
+5511|Material electrónico de referencia|product|TRUE
+5512|Etiquetado y accesorios|product|TRUE
+5600|Muebles, Mobiliario y Decoración|product|TRUE
+5610|Muebles de alojamiento|product|TRUE
+5611|Muebles comerciales e industriales|product|TRUE
+5612|Mobiliario institucional, escolar y educativo y accesorios|product|TRUE
+5613|Muebles y accesorios para mercadeo|product|TRUE
+5614|Adornos para el hogar|product|TRUE
+6000|Instrumentos Musicales, Juegos, Juguetes, Artes, Artesanías y Equipo educativo, Materiales, Accesorios y Suministros|product|TRUE
+6010|Materiales didácticos profesionales y de desarrollo y accesorios y suministros|product|TRUE
+6011|Decoraciones y suministros del aula|product|TRUE
+6012|Equipo, accesorios y suministros de arte y manualidades |product|TRUE
+6013|Instrumentos musicales, piezas y accesorios|product|TRUE
+6014|Juguetes y juegos|product|TRUE
+7000|Servicios de Contratación Agrícola, Pesquera, Forestal y de Fauna|product|TRUE
+7010|Pesquerías y acuicultura|product|TRUE
+7011|Horticultura|product|TRUE
+7012|Servicios de animales vivos|product|TRUE
+7013|Preparación, gestión y protección del terreno y del suelo|product|TRUE
+7014|Producción, gestión y protección de cultivos|product|TRUE
+7015|Silvicultura|product|TRUE
+7016|Fauna y flora silvestres|product|TRUE
+7017|Desarrollo y vigilancia de recursos hidráulicos|product|TRUE
+7100|Servicios de Minería, Petróleo y Gas|product|TRUE
+7110|Servicios de minería|product|TRUE
+7111|Servicios de perforación y prospección petrolífera y de gas|product|TRUE
+7112|Servicios de construcción y perforación de pozos|product|TRUE
+7113|Servicios de aumento de la extracción y producción de gas y petróleo|product|TRUE
+7114|Servicios de restauración y recuperación de gas y petróleo|product|TRUE
+7115|Servicios de procesamiento y gestión de datos de petróleo y gas|product|TRUE
+7116|Servicios de gerencia de proyectos en pozos de petróleo y gas|product|TRUE
+7200|Servicios de Edificación, Construcción de Instalaciones y Mantenimiento|product|TRUE
+7210|Servicios de mantenimiento y reparaciones de construcciones e instalaciones|product|TRUE
+7211|Servicios de construcción de edificaciones residenciales|product|TRUE
+7212|Servicios de construcción de edificaciones no residenciales|product|TRUE
+7214|Servicios de construcción pesada|product|TRUE
+7215|Servicios de mantenimiento y construcción de comercio especializado|product|TRUE
+7300|Servicios de Producción Industrial y Manufactura|product|TRUE
+7310|Industrias de plásticos y productos químicos|product|TRUE
+7311|Industrias de la madera y el papel|product|TRUE
+7312|Industrias del metal y de minerales|product|TRUE
+7313|Industrias de alimentos y bebidas|product|TRUE
+7314|Industrias de fibras, textiles y de tejidos|product|TRUE
+7315|Servicios de apoyo a la fabricación|product|TRUE
+7316|Fabricación de maquinaria y equipo de transporte|product|TRUE
+7317|Fabricación de productos eléctricos e instrumentos de precisión|product|TRUE
+7318|Servicios de maquinado y procesado|product|TRUE
+7600|Servicios de Limpieza, Descontaminación y Tratamiento de Residuos|product|TRUE
+7610|Servicios de descontaminación|product|TRUE
+7611|Servicios de aseo y limpieza|product|TRUE
+7612|Eliminación y tratamiento de desechos|product|TRUE
+7613|Limpieza de residuos tóxicos y peligrosos|product|TRUE
+7700|Servicios Medioambientales|product|TRUE
+7710|Gestión medioambiental|product|TRUE
+7711|Protección medioambiental|product|TRUE
+7712|Seguimiento, control y rehabilitación de la contaminación|product|TRUE
+7713|Servicios de seguimiento, control o rehabilitación de contaminantes|product|TRUE
+7800|Servicios de Transporte, Almacenaje y Correo|product|TRUE
+7810|Transporte de correo y carga|product|TRUE
+7811|Transporte de pasajeros|product|TRUE
+7812|Manejo y embalaje de material|product|TRUE
+7813|Almacenaje|product|TRUE
+7814|Servicios de transporte|product|TRUE
+7818|Servicios de mantenimiento o reparaciones de transportes|product|TRUE
+8000|Servicios de Gestión, Servicios Profesionales de Empresa y Servicios Administrativos|product|TRUE
+8010|Servicios de asesoría de gestión|product|TRUE
+8011|Servicios de recursos humanos|product|TRUE
+8012|Servicios legales|product|TRUE
+8013|Servicios inmobiliarios|product|TRUE
+8014|Comercialización y distribución|product|TRUE
+8015|Política comercial y servicios|product|TRUE
+8016|Servicios de administración de empresas|product|TRUE
+8100|Servicios Basados en Ingeniería, Investigación y Tecnología|product|TRUE
+8110|Servicios profesionales de ingeniería|product|TRUE
+8111|Servicios informáticos|product|TRUE
+8112|Economía|product|TRUE
+8113|Estadística|product|TRUE
+8114|Tecnologías de fabricación|product|TRUE
+8115|Servicios de pedología|product|TRUE
+8116|Entrega de servicios de tecnología de información|product|TRUE
+8200|Servicios Editoriales, de Diseño, de Artes Gráficas y Bellas Artes|product|TRUE
+8210|Publicidad|product|TRUE
+8211|Escritura y traducciones|product|TRUE
+8212|Servicios de reproducción|product|TRUE
+8213|Servicios fotográficos|product|TRUE
+8214|Diseño gráfico|product|TRUE
+8215|Artistas e intérpretes profesionales|product|TRUE
+8300|Servicios Públicos y Servicios Relacionados con el Sector Público|product|TRUE
+8310|Servicios públicos|product|TRUE
+8311|Servicios de medios de telecomunicaciones|product|TRUE
+8312|Servicios de información|product|TRUE
+8400|Servicios Financieros y de Seguros|product|TRUE
+8410|Finanzas de desarrollo|product|TRUE
+8411|Servicios de contabilidad y auditorias|product|TRUE
+8412|Banca e inversiones|product|TRUE
+8413|Servicios de seguros y pensiones|product|TRUE
+8414|Agencias de crédito|product|TRUE
+8500|Servicios de Salud|product|TRUE
+8510|Servicios integrales de salud|product|TRUE
+8511|Prevención y control de enfermedades|product|TRUE
+8512|Práctica médica|product|TRUE
+8513|Ciencia médica, investigación y experimentación|product|TRUE
+8514|Medicina alternativa y holística|product|TRUE
+8515|Servicios alimenticios y de nutrición|product|TRUE
+8516|Servicios de mantenimiento, renovación y reparación de equipo médico quirúrgico|product|TRUE
+8517|Servicios de muerte y soporte al fallecimiento|product|TRUE
+8600|Servicios Educativos y de Formación|product|TRUE
+8610|Formación profesional|product|TRUE
+8611|Sistemas educativos alternativos|product|TRUE
+8612|Instituciones educativas|product|TRUE
+8613|Servicios educativos especializados|product|TRUE
+8614|Instalaciones educativas|product|TRUE
+9000|Servicios de Viajes, Alimentación, Alojamiento y Entretenimiento|product|TRUE
+9010|Restaurantes y catering (servicios de comidas y bebidas)|product|TRUE
+9011|Instalaciones hoteleras, alojamientos y centros de encuentros|product|TRUE
+9012|Facilitación de viajes|product|TRUE
+9013|Artes interpretativas|product|TRUE
+9014|Deportes comerciales|product|TRUE
+9015|Servicios de entretenimiento|product|TRUE
+9100|Servicios Personales y Domésticos|product|TRUE
+9110|Aspecto personal|product|TRUE
+9111|Asistencia doméstica y personal|product|TRUE
+9200|Servicios de Defensa Nacional, Orden Público, Seguridad y Vigilancia|product|TRUE
+9210|Orden público y seguridad|product|TRUE
+9211|Servicios militares o defensa nacional|product|TRUE
+9212|Seguridad y protección personal|product|TRUE
+9300|Servicios Políticos y de Asuntos Cívicos|product|TRUE
+9310|Sistemas e instituciones políticas|product|TRUE
+9311|Condiciones sociopolíticas|product|TRUE
+9312|Relaciones internacionales|product|TRUE
+9313|Ayuda y asistencia humanitaria|product|TRUE
+9314|Servicios comunitarios y sociales|product|TRUE
+9315|Servicios de administración y financiación pública|product|TRUE
+9316|Tributación|product|TRUE
+9317|Política y regulación comercial|product|TRUE
+9400|Organizaciones y Clubes|product|TRUE
+9410|Organizaciones laborales|product|TRUE
+9411|Organizaciones religiosas|product|TRUE
+9412|Clubes|product|TRUE
+9413|Organizaciones, asociaciones y movimientos cívicos|product|TRUE
+9500|Terrenos, Edificios, Estructuras y Vías|product|TRUE
+9510|Parcelas de tierra|product|TRUE
+9511|Vías|product|TRUE
+9512|Estructuras y edificios permanentes|product|TRUE
+9513|Estructuras y edificios móviles|product|TRUE
