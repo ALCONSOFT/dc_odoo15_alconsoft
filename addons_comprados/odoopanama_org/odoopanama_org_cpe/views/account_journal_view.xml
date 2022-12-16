@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record model="ir.ui.view" id="view_account_journal_form">
+        <field name="name">account.journal.form.inherit</field>
+        <field name="model">account.journal</field>
+        <field name="inherit_id" ref="odoopanama_org_base.view_account_journal_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='credit_note_id']" position="before">
+                <field name="is_cpe" groups="odoopanama_org_cpe.group_odoopanama_org_cpe_manager" attrs="{'invisible':[('type','not in',['sale'])]}" />
+                <field name="is_synchronous" attrs="{'invisible': [('is_cpe', '=', False)]}" groups="odoopanama_org_cpe.group_odoopanama_org_cpe_manager" />
+            </xpath>
+            <xpath expr="//group[@name='panamanian_settings']" position="after">
+                <group name="panamanian_payment" string="Método de Pago" attrs="{'invisible':[('type','not in',['cash', 'bank'])]}">
+                    <group>
+                        <field name="pa_payment_method" />
+                    </group>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+</odoo> 
