@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="report_delivery_document" inherit_id="stock.report_delivery_document">
+		<xpath expr="//div[@name='div_sched_date']" position="after">
+			<div t-if="o.pa_invoice_name" class="col-auto" name="div_origin">
+				<strong>Factura:</strong>
+				<p t-field="o.pa_invoice_name" />
+			</div>
+		</xpath>
+	</template>
+
+</odoo> 
+
