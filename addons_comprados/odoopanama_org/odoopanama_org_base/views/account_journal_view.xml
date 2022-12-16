@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record model="ir.ui.view" id="view_account_journal_form">
+        <field name="name">account.journal.form.inherit</field>
+        <field name="model">account.journal</field>
+        <field name="inherit_id" ref="account.view_account_journal_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//notebook//page[@name='advanced_settings']" position="after">
+                <page name="pe_config" string="Configuracion Panameña">
+                    <group name="panamanian_settings" string="Configuracion Panameña"  attrs="{'invisible':[('type','not in',['sale', 'purchase'])]}">
+                        <group>
+                            <field name="l10n_latam_document_type_id" attrs="{'invisible':[('type','not in',['sale', 'purchase'])]}" />
+                            <field name="credit_note_id" attrs="{'invisible':[('type','not in',['sale', 'purchase'])]}" />
+                            <field name="dedit_note_id" attrs="{'invisible':[('type','not in',['sale', 'purchase'])]}" />
+                            <field name="l10n_latam_use_documents" attrs="{'invisible':[('type','not in',['sale', 'purchase'])]}" />
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo> 
+
